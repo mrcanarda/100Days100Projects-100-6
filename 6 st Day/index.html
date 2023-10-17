@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>6 st Day</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer type="module" src="index.js"></script>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <div class="grid grid--2-cols">
+        <div class="left-paragraph">
+          <h1>Stay updated!</h1>
+          <p>Join 60,000+ product managers receiving monthly updates on:</p>
+          <ul class="left__list">
+            <li class="left-list">
+              Product discovery and building what matters
+            </li>
+            <li class="left-list">Measuring to ensure updates are a success</li>
+            <li class="left-list">And much more!</li>
+          </ul>
+          <div class="hdn-cls">
+            <p class="input-paragraph">Email address</p>
+            <p class="input__paragraph__two hidden">Valid email required</p>
+          </div>
+          <input
+            type="email"
+            placeholder="email@company.com"
+            class="login__input__first"
+          />
+
+          <input
+            type="email"
+            placeholder="ash#loremcompany.com"
+            class="login__input input__two hidden"
+          />
+
+          <button class="subs-btn">Subscribe to monthly newletter</button>
+        </div>
+        <div class="right-img">
+          <img src="assets/images/illustration-sign-up-desktop.svg" alt="" />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+
+<div class="hidden page__two">
+  <img src="assets/images/icon-success.svg" alt="" />
+  <h1>Thanks for subscribing!</h1>
+  <p>
+    A confirmation e mail has been sent to
+    <span>ash@loremcompany.com</span>. Please open it and click the button
+    inside to confirm your subscription.
+  </p>
+  <button class="page__two__button">Dismiss message</button>
+</div>
+
+<div class="attribution">Challenge by Coded by Can ARDA.</div>

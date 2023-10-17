@@ -1,0 +1,172 @@
+/* 
+font-family: 'Roboto', sans-serif;
+*/
+
+/**************************
+******* LEFT PARAGRAPH ***
+*************************/
+
+.left-paragraph {
+  display: flex;
+  flex-direction: column;
+  margin-left: 6rem;
+}
+
+.left-paragraph h1 {
+  margin-top: 8rem;
+  font-size: 6.4rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.left-paragraph p {
+  font-size: 1.8rem;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  margin-top: 2rem;
+  color: hsl(235, 18%, 26%);
+}
+
+/**************************
+** LEFT PARAGRAPH LIST **
+*************************/
+
+ul {
+  list-style: url("/assets/images/icon-list.svg");
+  margin-left: 2rem;
+}
+
+li {
+  margin-top: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  color: hsl(235, 18%, 26%);
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.hdn-cls {
+  display: flex;
+  margin-bottom: 6px;
+}
+
+.hdn-cls p:first-child {
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.hdn-cls p:last-child {
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: hsl(4, 100%, 67%);
+}
+
+.input__paragraph__two {
+  margin-left: 20rem;
+}
+
+/**************************
+******* INPUT IMG *******
+*************************/
+
+input {
+  padding: 1.8rem;
+  border-radius: 12px;
+  font-size: 2rem;
+  border: 1px solid hsl(231, 7%, 60%);
+}
+
+.input__two {
+  color: hsl(4, 100%, 67%);
+  background-color: hsl(4, 88%, 77%);
+}
+
+/**************************
+******* INPUT IMG *******
+*************************/
+
+.subs-btn {
+  padding: 1.8rem;
+  border-radius: 12px;
+  font-size: 1.8rem;
+  border: 1px solid hsl(231, 7%, 60%);
+  margin-top: 2.4rem;
+  background-color: hsl(234, 29%, 20%);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+/**************************
+******* RIGHT IMG *******
+*************************/
+
+.right-img {
+  margin-left: 8rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/***********************
+*** PAGE TWO ***********
+***********************/
+
+.page__two {
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  width: 65rem;
+  background-color: #fff;
+}
+
+.page__two span {
+  font-weight: 700;
+}
+
+.page__two img {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 4rem;
+  margin-right: 40rem;
+}
+
+.page__two h1 {
+  font-size: 5rem;
+  width: 70%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.page__two p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  text-align: left;
+  width: 68%;
+  line-height: 1.4;
+  color: hsl(235, 18%, 26%);
+}
+
+.page__two__button {
+  padding: 1.8rem;
+  padding-left: 14rem;
+  padding-right: 14rem;
+  border-radius: 12px;
+  font-size: 1.8rem;
+  border: 1px solid hsl(231, 7%, 60%);
+  margin-top: 2.4rem;
+  margin-bottom: 4rem;
+  background-color: hsl(234, 29%, 20%);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.hidden {
+  display: none;
+}

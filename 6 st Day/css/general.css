@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  pad: 30px;
+  min-height: 100vh;
+  background-color: hsl(235, 18%, 26%);
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 16px;
+  width: 100rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.hidden {
+  display: none;
+}
+
+.attribution {
+  margin-top: 2rem;
+  color: azure;
+  font-size: 2rem;
+}
